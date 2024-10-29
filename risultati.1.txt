@@ -1,0 +1,5 @@
+
+Il numero è: 6.50
+La sua metà è: 3.25
+Il suo quadrato è: 42.25
+Il suo cubo è: 274.62
