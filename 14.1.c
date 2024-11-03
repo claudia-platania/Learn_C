@@ -28,6 +28,8 @@ main(){
 /* 
 
 gcc 14.1.c
-./a.out > riusltati.txt         (l'output viene rediretto in un file txt)
+./a.out > "nome del file"
+
+    --> l'output viene rediretto in un file txt
 
  */
