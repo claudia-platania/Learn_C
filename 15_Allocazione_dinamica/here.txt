@@ -1,0 +1,5 @@
+
+Ciao, questo file viene utilizzato come
+dimostrazione per copiare un file da un'altro
+utilizzando le ligìbrerie:
+fopne, fprintf, stderr, fclose
