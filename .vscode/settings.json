@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "11.15.C": "cpp"
-    }
+        "11.15.C": "cpp",
+        "limits": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.inlineSuggest.syntaxHighlightingEnabled": true
 }
