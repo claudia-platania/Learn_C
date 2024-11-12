@@ -1,0 +1,17 @@
+ISi completi il programma C in modo che:
+
+    legga uno dei file di testo a disposizione (testo_24_06_2024_1.txt, o testo_24_06_2024_2.txt);
+    conti le parole all'interno del file aperto;
+    modifichi tutte le vocali minuscole in maiuscole;
+    stampi il risultato su standard output - andando a capo ogni 81 caratteri stampati da un file all'altro.
+
+Precisazione: non è ammesso l'utilizzo delle funzioni printf() e scanf(), né della libreria ctype.h.
+
+Nota: Estratto tabella ASCII
+Dec	Glifo	Dec	Glifo
+65	A	97	a
+66	B	98	b
+67	C	99	c
+68	D	100	d
+...	...	...	...
+

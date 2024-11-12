@@ -1,0 +1,7 @@
+Completare il programma C in modo che:
+
+    legga un testo salvato nel file testo_24062024.txt;
+    ne copi il contenuto in un altro file mediante la funzione printfile(FILE* this, FILE* that) - si consideri come file di destinazione lo standard output;
+    conti i caratteri alfabetici e non alfabetici - l’utente dovrà scegliere da terminale se contare i caratteri alfabetici (inserendo la lettera 'a') o non alfabetici (inserendo un qualsiasi altro carattere da tastiera). Il risultato deve essere restituito all’utente nello standard output.
+
+Precisazione: non è ammesso l’utilizzo delle funzioni printf() e scanf(), né della libreria ctype.h.

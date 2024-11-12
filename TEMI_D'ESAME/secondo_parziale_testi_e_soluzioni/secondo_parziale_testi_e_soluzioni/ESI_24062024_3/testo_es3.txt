@@ -1,0 +1,15 @@
+Completare l'esercizio implementando le funzioni mancanti in stile ricorsivo per il calcolo della lunghezza, somma contenuti e valore minimo di una lista concatenata.
+
+Se ad esempio il programma riceve in input i seguenti valori:
+
+5
+9
+11
+-7
+
+dovrà stampare come segue:
+
+Ecco la lista: [5 9 11 -7 ]
+La lunghezza della lista è : 4
+Il minimo valore della lista è : -7
+La somma dei valori della lista è : 18

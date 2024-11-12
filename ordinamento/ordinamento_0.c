@@ -16,11 +16,7 @@ int main(void) {
 
     // Bubble Sort per ordinare l'array in ordine crescente
 
-
-//NON SO SE SI PUÒ FARE COSÌ    ??
-    //n = sizeof(numeri) / sizeof(numeri[0]);  // Calcolo la dimensione dell'array
-//... = dimensione totale dell'intero array     /   dimensione singolo elemento (elemento posizione 0 per esmepio)      -->     numero di elementi
-
+		/*
     int ordinato;
     i=0;
     do{
@@ -39,7 +35,7 @@ int main(void) {
         i++;
 
     }while(ordinato == 0);
-
+	*/
 
     for (i = 0; i < n; i++) {                   //scorro l'array esterno per intero
         for (max = 0; max < n - 1; max++) {         //controllo l'ordinamento dell'array        -->     devo avere tutto l'array ordinato

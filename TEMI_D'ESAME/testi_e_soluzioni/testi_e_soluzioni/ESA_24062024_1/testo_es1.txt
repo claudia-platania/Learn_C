@@ -1,0 +1,31 @@
+Completare il programma C nelle parti indicate con TODO (lasciando inalterate le altre parti) in modo che:
+
+    legga da standard input un numero n, SIZE valori per la white list e SIZE valori per la black list (SIZE è uguale a 5);
+    stampi la lista dei divisori, separati da uno spazio, di n presenti nella white list e non presenti nella black list
+
+Suggerimento:
+per provare il programma sul proprio PC senza dover digitare ogni volta gli 11 valori richiesti, creare un file di testo (values.txt) con gli 11 valori e lanciare il comando da terminale:
+
+./a.out < values.txt
+
+Es. di file values.txt (il primo valore è n, seguono 5 valori per la white liste e 5 valori per la black list):
+
+120
+2
+3
+4
+7
+10
+2
+10
+20
+30
+40
+
+In  questo caso l'output sarà:
+
+I divisori primi di 120 presenti nella white list e non nella black list sono:
+3 
+
+
+
