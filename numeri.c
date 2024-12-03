@@ -20,5 +20,79 @@ La varianza ci aiuta a capire quanto i numeri sono lontani o vicini alla media (
 
 
 
+#include <stdio.h>
+#include <stdlib.h>     //per includere la Malloc e la Calloc
+
+int main (){
+
+    float n;
+    float *numeri = NULL;       //puntatore ai numeri
+    float totale = 0;           //QUANTI Numeri ci sono
+    float somma = 0;        //per calcolare la somma die numeri
+    float media = 0;
+    float varianza = 0;
+
+    //malloc e totale
+
+    do{
+
+        scanf("%f", &n);
+
+        //??
+        numeri = (float *) malloc (1 * sizeof(float));
+
+        
+        //NON RIESCO AD ALLOCARE IL NUMERO NELLA MEMORIA ALLOCATA PER LUI       -->      NON RIESCO A SALVARLO
+
+ 
+        somma = somma + n;      //aggiungo il numero (n) alla somma --> nuova somma
+        totale++;           //contatore
+
+    } while ( n != 0);
+
+    totale = totale - 1;      //totale - 1    -->     così non conta lo 0
+
+    if( totale > 0 ){      //se ha inserito almeno 1 valore
+
+        //media
+
+        media = somma / totale;
+
+
+        //varianza
+
+        for( int i = 0; i < totale; i++ ){      //uso i per scorrere        -->     i = numero corrente
+
+            varianza = varianza + ( (numeri[i] - media) * (numeri[i] - media) );
+
+
+        }
+
+    
+        varianza = varianza / totale;
+
+        printf("totale = %f\n", totale);
+        printf("media = %f\n", media);
+        printf("varianza = %f\n", varianza);
+
+
+    }
+ 
+
+    //????
+
+    free (numeri);
+
+    return 0;
+
+}
+
+
+
+
+
+
+
+
 
 
